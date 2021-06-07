@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CE1054A0266E54090075F34C /* nextAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10549F266E54090075F34C /* nextAppApp.swift */; };
-		CE1054A2266E54090075F34C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1054A1266E54090075F34C /* ContentView.swift */; };
+		CE1054A2266E54090075F34C /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1054A1266E54090075F34C /* SignInView.swift */; };
 		CE1054A4266E540B0075F34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1054A3266E540B0075F34C /* Assets.xcassets */; };
 		CE1054A7266E540B0075F34C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1054A6266E540B0075F34C /* Preview Assets.xcassets */; };
 		CE1054B2266E540B0075F34C /* nextAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1054B1266E540B0075F34C /* nextAppTests.swift */; };
 		CE1054BD266E540B0075F34C /* nextAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1054BC266E540B0075F34C /* nextAppUITests.swift */; };
+		CE1054CE266E5D350075F34C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1054CD266E5D350075F34C /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* Begin PBXFileReference section */
 		CE10549C266E54090075F34C /* nextApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nextApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE10549F266E54090075F34C /* nextAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextAppApp.swift; sourceTree = "<group>"; };
-		CE1054A1266E54090075F34C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE1054A1266E54090075F34C /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CE1054A3266E540B0075F34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1054A6266E540B0075F34C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE1054A8266E540B0075F34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		CE1054B8266E540B0075F34C /* nextAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nextAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1054BC266E540B0075F34C /* nextAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nextAppUITests.swift; sourceTree = "<group>"; };
 		CE1054BE266E540B0075F34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1054CD266E5D350075F34C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				CE10549F266E54090075F34C /* nextAppApp.swift */,
-				CE1054A1266E54090075F34C /* ContentView.swift */,
+				CE1054A1266E54090075F34C /* SignInView.swift */,
+				CE1054CD266E5D350075F34C /* Launch Screen.storyboard */,
 				CE1054A3266E540B0075F34C /* Assets.xcassets */,
 				CE1054A8266E540B0075F34C /* Info.plist */,
 				CE1054A5266E540B0075F34C /* Preview Content */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1054CE266E5D350075F34C /* Launch Screen.storyboard in Resources */,
 				CE1054A7266E540B0075F34C /* Preview Assets.xcassets in Resources */,
 				CE1054A4266E540B0075F34C /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1054A2266E54090075F34C /* ContentView.swift in Sources */,
+				CE1054A2266E54090075F34C /* SignInView.swift in Sources */,
 				CE1054A0266E54090075F34C /* nextAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
